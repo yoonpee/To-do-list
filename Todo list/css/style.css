@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+a {
+  outline: 0;
+  text-decoration: none; }
+
+#header {
+  width: 100%;
+  background: peachpuff; }
+  #header .inner {
+    width: 1180px;
+    height: 120px;
+    margin: 0 auto; }
+    #header .inner h1 {
+      font: 30px/120px 'arial';
+      color: #fff;
+      text-align: center; }
+
+#content {
+  width: 100%;
+  height: calc(100vh - 120px);
+  padding: 150px 0;
+  background: pink; }
+  #content .inner {
+    width: 1180px;
+    margin: 0 auto; }
+    #content .inner #todo-form {
+      width: 100%;
+      width: 400px;
+      margin: 0 auto; }
+      #content .inner #todo-form::after {
+        display: block;
+        clear: both;
+        content: ''; }
+      #content .inner #todo-form h2 {
+        font: normal 30px/1 'arial';
+        color: #000;
+        float: left; }
+      #content .inner #todo-form input {
+        float: left;
+        width: 220px;
+        height: 30px;
+        margin-left: 10px; }
+      #content .inner #todo-form .submit {
+        float: left;
+        width: 55px;
+        height: 30px;
+        background: peachpuff;
+        margin-left: 10px;
+        border: 1px solid #000;
+        font: 12px/1 'arial'; }
+    #content .inner > p {
+      text-align: center;
+      font: 15px/1 'arial';
+      color: #000;
+      margin-top: 10px;
+      display: none; }
+    #content .inner #todo-list {
+      width: 300px;
+      margin: 0 auto;
+      margin-top: 20px; }
+      #content .inner #todo-list .item {
+        padding: 10px; }
+
+/*# sourceMappingURL=style.css.map */
